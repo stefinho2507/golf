@@ -1,16 +1,15 @@
-# GolfRange Dortmund Score – GitHub Pages
+# GolfRange Dortmund Score – V6
 
-## Neu in V3
-- Gesamtschläge pro Loch werden automatisch aus **Schläge bis Grün + Putts** berechnet.
-- Jedes Loch kann als **Neutral**, **Gut** oder **Schlecht** markiert werden.
-- HCPI, Course Handicap, Netto-Score und lokale Speicherung bleiben erhalten.
+GitHub-Pages-fertige mobile Scorecard.
+
+## Neu in V6
+- automatisches GIR aus Schlägen bis Grün
+- Netto-Stableford pro Loch und gesamt
+- Live-Rundenstatistik: GIR-Quote, 1-Putts, 3+ Putts, Gut/Neutral/Schlecht
+- erweiterte Abschluss-Scorecard als PNG zum Teilen/Sichern
+- weiterhin HCPI/Course HCP, Herren Gelb und Damen Rot, lokale Speicherung
 
 ## Deployment
-1. Dateien in dein bestehendes GitHub-Repository hochladen und die alten Dateien ersetzen.
-2. Committen/pushen.
-3. GitHub Pages veröffentlicht die neue Version automatisch.
-4. Auf dem iPhone die Seite einmal neu laden. Bei einer installierten Homescreen-App ggf. schließen und erneut öffnen.
+Alle Dateien ins Root-Verzeichnis des GitHub-Repositories kopieren und committen. GitHub Pages: Settings → Pages → Deploy from a branch → main → /(root).
 
-
-## V4
-Beim Speichern wird automatisch eine PNG-Zusammenfassung der Runde erzeugt. Auf iPhone/iPad öffnet **Bild teilen / sichern** das Teilen-Menü, über das das Bild in Fotos oder Dateien gesichert werden kann.
+Nach dem Update auf dem iPhone die Seite einmal neu laden. Der Service-Worker-Cache wurde auf V6 erhöht.
